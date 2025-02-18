@@ -150,7 +150,7 @@ Map Functions
 
     Returns all the values in the map ``x``.
 
-.. function:: map_top_n_values(x(K,V), n) -> array(K)
+.. function:: map_top_n_values(x(K,V), n) -> array(V)
 
     Returns top n values in the map ``x``.
     ``n`` must be a positive integer
